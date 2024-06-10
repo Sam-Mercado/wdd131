@@ -207,6 +207,7 @@ p .text2{
 
 
 .web-Dev-title{
+    display: flex;
     grid-column: 1/4;
     grid-row: 1;
     
