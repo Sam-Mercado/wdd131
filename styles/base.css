@@ -55,17 +55,17 @@ header{
     padding: 10px 10px;
     margin-left: -30px;
     text-align: center;
-    grid-column:5/16;
+    grid-column:1/24;
     grid-row: 2;
 }
-.name-in-tilte{
+/* .name-in-tilte{
     padding: 10px 10px;
     margin-left: 18px;
     text-align: left;
     color: rgb(56, 255, 189);
     grid-column: 15/21;
     grid-row: 2;
-}
+}*/
 
 
 nav {
