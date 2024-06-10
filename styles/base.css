@@ -24,7 +24,7 @@
 
 h1, h3, p{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing:auto;
+    font-optical-sizing:700;
     font-weight:400;
     font-style: normal;
 }
@@ -69,7 +69,6 @@ nav {
 
 }
 nav a{
-    display: 1 1 100%;
     text-align: center;
     color: var(--color4);
     text-decoration: none;
