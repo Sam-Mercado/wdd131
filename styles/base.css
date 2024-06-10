@@ -17,11 +17,11 @@
     max-width: 1080px;
   }
 
-  h1{
+h1{
     color: var(--color4);
-  }
+}
 
-h1, h2, p{
+h1, h2, p {
     font-family: "Open Sans", sans-serif;
     font-weight:400;
     font-style: normal;
@@ -108,10 +108,9 @@ main{
     color: var(--color1);
     border-radius: 10px;
     border: 0.5px solid var(--color2);
-    box-shadow: 3.1px 6.2px 10px #000, 5.0px -6.0px 90px rgba(194, 252, 254, 0.356);
-    
-    
+    box-shadow: 3.1px 6.2px 10px #000, 5.0px -6.0px 90px rgba(194, 252, 254, 0.356);   
 }
+
 .card1{
     grid-column: 2/12;
     grid-row: 2/10;
@@ -124,18 +123,22 @@ main{
 
 .card h1{
     text-align: center;
-    grid-column: 1/12;
     max-height: 60px;
 }
+
+.card1 p {
+    font-size: small;
+}
+
+.card1 h1{
+    grid-column: 1/12;
+}
+
 .title1{
     background-color: rgba(2, 158, 158, 0.726);
     padding: 20px 20px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
-}
-.card1 p {
-    
-    font-size: small;
 }
 
 .text1{
@@ -191,7 +194,9 @@ p .text2{
     text-align: center ;
 }
 
-
+.card h1{
+    grid-column: 1/12;
+}
 
 .card2{
     grid-column: 13/19;
