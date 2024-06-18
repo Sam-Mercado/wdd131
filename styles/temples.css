@@ -1,0 +1,58 @@
+@media only screen and (max-width: 700px) {
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+   
+    .off-screen-menu{
+        background-color: var(--color3);
+        opacity: 80%;
+        border: 0.1px solid white;
+        height: 100vh;
+        width: 100%;
+        max-width: 450px;
+        border-radius: 5px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-right: -500px;
+        transition: 0.3s ease;
+              
+    }
+
+    .off-screen-menu .active{
+        margin-right:0 ;
+    }
+
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: 0.3s ease;
+        
+    }
+
+    div .line{
+        background-color: var(--color2);
+        height: 3px;
+        width: 20px;
+        margin: 2px 5px;
+        border-radius: 1px;
+        z-index: 1;
+    }
+    
+    .hamburguer{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+}

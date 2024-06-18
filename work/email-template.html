@@ -1,0 +1,195 @@
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Mercado Springs Outreah</title>
+    <style>
+        :root{
+            --color1: #6CABB6;
+            --colot2: #F8BD00;
+            --white: #fff;
+            --black: #171a17;
+        }
+        body{
+            margin: 0;
+            background-color:var(--color1) ;
+                     
+        }
+
+        h1{
+          
+            padding: 20px 5px;
+            color: var(--white);
+            text-align: center;   
+            
+        }
+
+        p{
+            padding: 10px 20px
+        }
+
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        img{
+            border: 0;
+         
+        }
+        .background-img{
+            
+        }
+        .background-img img{
+            width: 100%;
+        }
+
+
+        section {
+            border-radius: 15px;
+        }
+
+        
+
+        .title{
+            width: 100%;
+            height: 200px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+         
+
+        .wrapper{
+            width: 100%;
+            background-color: #6CABB6;
+            padding-bottom: 60px;
+    
+            
+        
+        }
+        .main{
+            background-color: var(--white);
+            color: var(--black);
+            width: 100%;
+            margin: 0 auto;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+    
+        }
+        .email-content{
+            padding: 30px 20px;
+        }
+        .footer{
+            background-color: var(--colot2);
+            color: var(--white);
+            height: 200px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            display: grid;
+            grid-template-columns: repeat(12,50px);
+            grid-template-rows: repeat(4,50px);
+    
+        }
+
+        .profile{
+            width: 200px;
+            grid-column: 2;
+            grid-row: 2/4;
+
+
+        }
+
+        .profile img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            padding: 10px 30px;
+        }
+
+        .name{
+            grid-column: 5;
+            grid-row: 2/4;
+            min-width:300px;
+            padding: 0 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: right ;
+
+        }
+
+        .name h1{
+            width: 100%;
+            font-size: 25px;
+            padding: 0;
+            margin: 0  ;
+        }
+
+        .name p{ 
+            font-size: 15px;
+            padding: 0;
+            margin: 1px;
+        }
+
+        .line{
+            width: 100%;
+            height: 1px;
+            background-color: var(--white);
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+       
+    </style>
+</head>
+<body >
+        <div class="background-img">
+            <img src="../images/study2.jpg" alt="study space">
+        </div>
+    
+
+    <main class="wrapper">
+        <section class="main" width="100%">
+            <div class="title" height="auto" style="background-color: var(--colot2);">
+                    <h1>Outreach Title</h1>
+            </div>
+            <div class="email-content">
+                <p>Hi {{name}},</p>
+            
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur. Mi hac velit eu lacus a mollis proin quis dapibus. Enim velit egestas ligula at in quis. Feugiat tortor commodo egestas sed cursus. Ornare ornare et quis risus imperdiet vel. Et neque nibh mollis amet. Vitae euismod a tellus in mauris. In nibh duis nec euismod accumsan. Nibh hendrerit vulputate eu sed. Nullam nibh elementum posuere laoreet. Pellentesque aliquet donec quisque interdum blandit aliquam ipsum. Eget eu scelerisque morbi dolor malesuada duis montes. Leo bibendum pellentesque sapien placerat in. Aenean et consectetur fringilla arcu in eu venenatis netus sed. Nunc a quisque egestas fringilla facilisis non quam nunc.
+                </p>
+                <p> Sagittis imperdiet eget at amet. Magna enim netus rhoncus quis ut sollicitudin gravida in justo. Donec vitae est turpis nec est rhoncus ac.Nullam nibh elementum posuere laoreet. Pellentesque aliquet donec quisque interdum blandit aliquam ipsum.</p>
+            </div>
+            <div class="footer">
+                <div class="profile">
+                    <img  src="../images/samuel.jpg" alt="Samuel Mercado's Picture">
+                </div>
+                <div class="name">
+                    <h1>Samuel F. Mercado Perez</h1>
+                    <div class="line"></div>
+                    <p>Mentor Serving BYU-Pathway Students</p>
+                    <ul>
+                        <li><a href="#" alt="linkedin"></a></li>
+                        <li><a href="#" alt="whatsapp"></a></li>
+                        <li><a href="#" alt="facebook"></a></li>
+                    </ul> 
+                </div>
+            </div>
+        </section>   
+    </main>
+</body>
+</html>

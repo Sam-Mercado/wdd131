@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Picture Album</title>
+        <meta name="description" content="Picture Album Temple Galery">
+        <meta name="author" content="Samuel Fernando Mercado Perez">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/temples.css">
+        <link rel="stylesheet" href="styles/temples-large.css">
+       
+    </head>
+    <body>
+        <header id="NavBar">
+            <h1 class="nav-title">Temple Album</h1>
+
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="off-screen-menu">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">old</a></li>
+                    <li><a href="#">new</a></li>
+                    <li><a href="#">large</a></li>
+                    <li><a href="#">small</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <main >
+            <div class="col1">
+                <figure><img src="images/temple 1.jpg" alt="temple1" width="300px" height="auto"></figure>
+                <figure><img src="images/temple 2.jpg" alt="temple2" width="300px" height="auto"></figure>
+                <figure><img src="images/temple 3.jpg" alt="temple3" width="300px" height="auto"></figure>
+                
+            </div>
+            <div class="col2">
+                <figure><img src="images/temple 5.jpg" alt="temple5" width="300px" height="auto"></figure>
+                <figure><img src="images/temple 6.jpg" alt="temple6" width="300px" height="auto"></figure>
+            </div>
+            <div class="col3">
+                <figure><img src="images/temple 7.jpg" alt="temple7" width="300px" height="auto"></figure>
+                <figure><img src="images/temple 8.jpg" alt="temple8" width="300px" height="auto"></figure>
+                <figure><img src="images/temple 9.jpg" alt="temple9" width="300px" height="auto"></figure>
+                <figure><img src="images/temple 4.jpg" alt="temple4" width="300px" height="auto"></figure>
+            </div>
+            
+        </main>
+       
+        <footer>
+            <p id="year" ></p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/temples.js"></script>
+        <script src="scripts/getdates.js"></script>
+        
+    </body>
+
+</html>
