@@ -16,7 +16,7 @@
         body{
             margin: 0;
             background-color:var(--color1) ;
-                     
+                       
         }
 
         h1{
@@ -42,21 +42,17 @@
             border: 0;
          
         }
-        .background-img{
-            
-        }
+        
         .background-img img{
             width: 100%;
+            min-width: 320px;
+            position: absolute;
+            
         }
-
-
-        section {
-            border-radius: 15px;
-        }
-
-        
+       
 
         .title{
+        
             width: 100%;
             height: 200px;
             border-top-left-radius: 15px;
@@ -70,10 +66,10 @@
 
         .wrapper{
             width: 100%;
+            min-width: 320px;
             background-color: #6CABB6;
             padding-bottom: 60px;
-    
-            
+
         
         }
         .main{
@@ -83,7 +79,11 @@
             margin: 0 auto;
             max-width: 600px;
             border-spacing: 0;
+            border-radius: 15px;
             font-family: sans-serif;
+            position: relative;
+            top: 100px;
+            z-index: 1;
     
         }
         .email-content{
@@ -151,18 +151,65 @@
 
 
         }
+        @media only screen and (max-width: 544px) {
+            .title h1{
+                font-size: 20px;
+            }
+            .main p{
+                font-size: 15px;
+            }
+
+            .footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .profile{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .profile img{
+                width: 70px;
+                height: 70px;
+                align-items: center;
+
+            }
+
+            .name{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .name h1{
+                font-size: 20px;
+      
+            }
+
+            .name p{ 
+                font-size: 10px;
+            }
+            .line{
+                max-width: 70%;
+
+            }
+        }
 
        
     </style>
 </head>
-<body >
+<body >   
+
+    <main class="wrapper">
         <div class="background-img">
             <img src="../images/study2.jpg" alt="study space">
         </div>
-    
-
-    <main class="wrapper">
-        <section class="main" width="100%">
+        <div class="main" width="100%">
+            
             <div class="title" height="auto" style="background-color: var(--colot2);">
                     <h1>Outreach Title</h1>
             </div>
@@ -189,7 +236,7 @@
                     </ul> 
                 </div>
             </div>
-        </section>   
+        </div>   
     </main>
 </body>
 </html>
