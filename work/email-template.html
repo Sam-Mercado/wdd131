@@ -16,6 +16,7 @@
         body{
             margin: 0;
             background-color:var(--color1) ;
+            max-width: 1440px;
                        
         }
 
@@ -31,9 +32,6 @@
             padding: 10px 20px
         }
 
-        ul{
-            list-style-type: none;
-        }
         a{
             text-decoration: none;
         }
@@ -44,9 +42,13 @@
         }
         
         .background-img img{
+
             width: 100%;
-            min-width: 320px;
+            /* min-width: 320px; */
+            /* max-width: 1080px; */
+            max-height: 500px;
             position: absolute;
+            
             
         }
        
@@ -68,8 +70,8 @@
             width: 100%;
             min-width: 320px;
             background-color: #6CABB6;
-            padding-bottom: 60px;
-
+            padding-bottom: 60px; 
+            margin-bottom: 12%;           
         
         }
         .main{
@@ -84,6 +86,8 @@
             position: relative;
             top: 100px;
             z-index: 1;
+            box-shadow: 10px 20px 100px #171a178d;
+
     
         }
         .email-content{
@@ -92,7 +96,7 @@
         .footer{
             background-color: var(--colot2);
             color: var(--white);
-            height: 200px;
+            height: 250px;
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
             display: grid;
@@ -117,6 +121,7 @@
         }
 
         .name{
+            height: 150px;
             grid-column: 5;
             grid-row: 2/4;
             min-width:300px;
@@ -133,24 +138,37 @@
             width: 100%;
             font-size: 25px;
             padding: 0;
-            margin: 0  ;
+            margin: 0.5   ;
         }
 
         .name p{ 
             font-size: 15px;
             padding: 0;
-            margin: 1px;
+            margin: 0;
         }
 
-        .line{
+        div.line{
             width: 100%;
             height: 1px;
             background-color: var(--white);
             padding: 0;
-            margin: 0;
+            margin: 0.5px;
 
 
         }
+      .social{
+            width: 100%;
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        .icon{
+            width: 25px;
+            padding: 0 10px;
+        }
+ 
+        
         @media only screen and (max-width: 544px) {
             .title h1{
                 font-size: 20px;
@@ -173,12 +191,15 @@
             .profile img{
                 width: 70px;
                 height: 70px;
-                align-items: center;
+                position: relative;
+                top: 35px;
+                
 
             }
 
             .name{
                 margin-top: 10px;
+                margin-bottom: 20px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -197,6 +218,9 @@
                 max-width: 70%;
 
             }
+            .icon{
+                width: 20px;
+            }
         }
 
        
@@ -206,7 +230,7 @@
 
     <main class="wrapper">
         <div class="background-img">
-            <img src="../images/study2.jpg" alt="study space">
+            <img src="https://i.ibb.co/R3fnFJJ/study2.jpg" alt="">
         </div>
         <div class="main" width="100%">
             
@@ -223,17 +247,21 @@
             </div>
             <div class="footer">
                 <div class="profile">
-                    <img  src="../images/samuel.jpg" alt="Samuel Mercado's Picture">
+                    <img src="https://i.ibb.co/0QxH3Yq/samuel.jpg" alt="samul mercado profile">
                 </div>
                 <div class="name">
                     <h1>Samuel F. Mercado Perez</h1>
                     <div class="line"></div>
                     <p>Mentor Serving BYU-Pathway Students</p>
-                    <ul>
-                        <li><a href="#" alt="linkedin"></a></li>
-                        <li><a href="#" alt="whatsapp"></a></li>
-                        <li><a href="#" alt="facebook"></a></li>
-                    </ul> 
+                    <div class="social">
+                        
+                            <a href="https://www.linkedin.com/in/samuel-mercado-perez-12224b22b/" target="_blank" alt="linkedin"><img class="icon" src="https://i.ibb.co/fQY4Lxw/linkedin.png" alt="linkedin"></a>
+                            <a href="https://www.linkedin.com/in/samuel-mercado-perez-12224b22b/"target="_blank" alt="whatsapp"><img class="icon"src="https://i.ibb.co/JsLnsHR/whatsapp.png" alt="whatsapp"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100008713776063"target="_blank" alt="facebook"><img class="icon"src="https://i.ibb.co/w6R01Py/facebook.png" alt="facebook"></a>
+                        
+
+                    </div>
+                     
                 </div>
             </div>
         </div>   
