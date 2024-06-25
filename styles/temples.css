@@ -5,21 +5,7 @@
         flex-direction: row;
     }
     
-    ul{
-        position: relative;
-        list-style-type: none;
-        width: 60%;
-        padding: 10px 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    li{
-        padding: 10px 20px;
-    
-    }
+
    
     .off-screen-menu{
         background-color: var(--color3);

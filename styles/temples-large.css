@@ -8,6 +8,21 @@
     --color2:#374955;
     --color3:#0f344d;
 }
+ul{
+    position: relative;
+    list-style-type: none;
+    width: 60%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li{
+    padding: 10px 20px;
+
+}
 
 
 a{
