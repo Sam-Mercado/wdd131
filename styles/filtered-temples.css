@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+:root{
+    --color1:#6096b9;
+    --color2:#374955;
+    --color3:#0f344d;
+}
+ul{
+    position: relative;
+    list-style-type: none;
+    width: 60%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li{
+    padding: 10px 20px;
+
+}
+
+
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+a:hover{
+    color: var(--color2);
+    text-decoration: underline;
+    
+}
+header{
+    position: sticky;
+    background-image: linear-gradient(to bottom, #a9cce3, #a5c4d9, #a2bdcf, #9eb5c5, #9aaebb);
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 0.5px solid #ffffffc7;
+    box-shadow: 5px 5px 30px #3749557f;
+    
+}
+
+.nav-title{
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.4px -1px 3px var(--color3);
+    text-align: center;
+    font-size: 25px;
+}
+div .line{
+    background-color: none;
+    height: 3px;
+    width: 20px;
+    margin: 2px 5px;
+    border-radius: 1px;
+    
+}
+
+.hamburguer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    padding: 10px 20px;
+    margin: 0%;
+    
+}
+
+body{
+    width: 100%;
+    min-width: 320px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding:30px 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.col1, .col2, .col3{
+    display: flex;
+    flex-direction: column;
+}
+
+figure{
+    padding: 5px 5px ;
+
+}
+
+/* img:hover{
+    border: 0.1px solid var(--color2);
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px #a9cce3;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px #a9cce3c3;
+    border: 0.5px solid  #ffffffc7;
+} */
+
+
+
+footer{
+    height: auto;
+    background-image: linear-gradient(to left top, #a9cce3, #a5c4d9, #a2bdcf, #9eb5c5, #9aaebb);
+    color: white;
+    padding: 20px 30px;
+
+    border-radius: 10px;
+    border: 0.5px solid #ffffffc7;
+    box-shadow: 5px -5px 30px #3749557f;
+}
+
