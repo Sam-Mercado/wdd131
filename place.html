@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Place</title>
+        <meta name="description" content="Weather and pictures ">
+        <meta name="author" content="Samuel Fernando Mercado Perez">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+    </head>
+    <body>
+        <picture>
+            <source srcset="images/valle de la luna.jpg" media="(min-width: 600px)">
+            <source srcset="images/Awallo.jpg" media="(max-width: 600px)">
+            <img src="images/valle de la luna.jpg" alt="valle de la luna La Paz">
+        </picture>
+        <header>
+            <nav class="title">
+                <h1>Bolivia</h1>
+            </nav>
+        </header>
+
+        <main> 
+
+
+            <div class="data">  
+
+                <h2>Data</h2>
+                    <div class="countryData">
+                        <p><span id="left">area:</span>  <span id="right">55.631 Km2</span></p>
+                        <p><span id="left">population:</span>  <span id="right">12.22 million</span></p>
+                        <p><span id="left">capital:</span> <span id="right">Sucre</span></p>
+                        <p><span id="left">language:</span><span id="right">spanis</span></p>
+                        <p><span id="left">currency:</span> <span id="right">bolivian boliviano</span></p>
+                        <p><span id="left">time zone:</span> <span id="right">GMT-4</span></p>
+                        <p><span id="left">calling code:</span> <span id="right">+591</span></p>
+                        <p><span id="left">internet TLD:</span> <span id="right">bo</span></p>
+                    </div>
+            </div>
+            <div class="weather">
+                <div class="weatherTitle">
+                    <h2>Weather</h2>
+                    <img src="images/weatherIcon.svg" alt="weatherIcon">
+                </div>
+                <div>
+                    <p><span id="left">temperature:</span> <span id="right" class="temperature"></span></p>
+                    <p><span id="left">conditions:</span><span id="right" class="conditions"></span></p>
+                    <p><span id="left">wind:</span><span id="right" class="wind"></span></p>
+                    <p><span id="left">wind chill:</span><span id="right" class="windChill"></span></p>
+                </div>
+                <script src="scripts/place.js"></script>
+
+            </div>
+        </main>
+        <footer>
+            <p id="year"></p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/getdates.js"></script>
+    </body>
+</html>
