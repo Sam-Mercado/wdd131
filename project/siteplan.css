@@ -1,0 +1,182 @@
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+:root{
+    --color1:#EEE40A;
+    --color2:#333D58;
+    --color3:#ffffff;
+    --color4:#000000;
+}
+
+h1{
+
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 34px;
+}
+
+h4{
+    font-size:24px;
+}
+
+p{
+    font-size: 18px;
+    margin: 0;
+}
+
+.clearer{
+    font-size: 18px;
+    color: #000000ac;
+}
+.yellow{
+    color:var(--color1);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 40px;
+}
+
+header p{
+    opacity: 60%;
+    padding: 20px 20px;
+    margin:0;
+}
+
+main{
+ margin-left:10% ;
+ margin-right:10% ;
+} 
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-content{
+    text-align: left;
+    margin: 0 0;
+    max-width: 70%;
+    padding: 50px 40px;
+}
+
+.text-content p{
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.content{
+    text-align: left;
+    padding: 50px 40px;
+    width: 100%;
+}
+
+
+img{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.colors{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+table{
+    padding: 50px 0;
+}
+table, th, td {
+    text-align: center;
+    border-radius: 10px;
+  }
+th{
+    background-color: #333D58;
+    color: var(--color3);
+}
+
+td{
+    border: 1px solid rgba(0, 0, 0, 0.477);
+    text-align: center;
+}
+.color1{
+    background-color: var(--color1);
+    color: var(--color3);
+}
+.color2{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+.color3{
+    background-color: var(--color3);
+    color: var(--color4);
+}
+.color4{
+    background-color: var(--color4);
+    color: var(--color3);
+}
+
+
+.title{
+    margin-bottom: 50px;
+    
+}
+
+
+nav{
+    
+    width: 90%;
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;   
+}
+
+nav a{
+    color: var(--color3);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+a:hover{
+    transform: 0.4s;
+    color: var(--color1);
+}
+.wireframe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.wireframe h3{
+    width: 100%;
+}
+.wireframe img{
+    margin-bottom: 30px;
+
+}
+
+footer{
+    margin-top: 20px;
+    padding: 50px;
+    background-color: var(--color2);
+}
