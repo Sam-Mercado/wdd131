@@ -1,4 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
-     
+     <head>
+        <meta charset="utf-8">
+        <meta name="description" content="form homework">
+        <meta name="author" content="Samuel Mercado">
+        <title>HTML5 Start Site by Paul Cheney</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="styles/form.css">
+     </head>
+     <body>
+        <header>
+            <h2>PRODUCT REVIEW</h2>
+        </header>
+
+        <main>
+            <form method="get" action="review.html">
+                <fieldset class="main-form">
+                    <label for="productname">Product Name</label>
+                    <select type="text" name="productname" id="product"  required>
+                        <option value="">choose a product&#9662;</option>
+                        <option value="produt1">product 1</option>
+                        <option value="product2">product 2</option>
+                        <option value="product3">product 3</option>
+                        </select>
+                    <div>Overall Rating</div>
+                    <table>
+                        <tr>
+                            <th>⭐<label for="rating"></label></th>
+                            <th>⭐⭐<label for="rating"></label></th>
+                            <th>⭐⭐⭐<label for="rating"></label></th>
+                            <th>⭐⭐⭐⭐<label for="rating"></label></th>
+                            <th>⭐⭐⭐⭐⭐<label for="rating"></label></th>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="rating" name="rating" value="*" required></td>
+                            <td><input type="radio" id="rating" name="rating" value="**" required></td>
+                            <td><input type="radio" id="rating" name="rating" value="***" required></td>
+                            <td><input type="radio" id="rating" name="rating" value="****" required></td>
+                            <td><input type="radio" id="rating" name="rating" value="*****" required></td>
+                        </tr>
+                    </table>
+                    <!-- <label>⭐<input type="radio" name="rating" value="*" ></label>
+                    <label>⭐⭐<input type="radio" name="rating" value="**" ></label>
+                    <label>⭐⭐⭐<input type="radio" name="rating" value="***" ></label>
+                    <label>⭐⭐⭐⭐<input type="radio" name="rating" value="****" ></label>
+                    <label>⭐⭐⭐⭐⭐<input type="radio" name="rating" value="*****" ></label> -->
+    
+                    <label for="dateofinstalation">Date of Instalation</label>
+                    <input type="date" id="date" name="dateofinstalation">
+    
+                    <div>Which features did you find usful in the product?</div>
+                    <p>(Check all that apply)</p>
+                    <label><input type="checkbox"  id="duration" name="duration" value="yes">Duration</label>
+                    <label><input type="checkbox" id="easeOfUse" name="easeOfUse" value="yes">Ease of Use</label>
+                    <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+                    <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+    
+                    <label>Write a Review (optional)<input type="textarea" id="review" name="review"></label>
+                    <label>Your Name (Optional)<input type="text" id="name" name="name"></label>
+    
+                    <input type="submit" id="sentreview" value="Post Review">
+    
+                </fieldset>
+            </form>
+        </main>
+     </body>
+     <footer>
+        
+     </footer>
 </html>
