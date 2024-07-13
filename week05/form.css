@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+header, footer{
+    background-color: rgba(46, 0, 88, 0.717);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    margin-top: 20px;
+}
+table tr th{
+    font-size: 12px;
+}
+form{
+    margin: 30px 30px;
+    width: 80% ;
+}
+.main-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;   
+}
+
+.table tr th{
+    font-size: 8px;
+}
+
+.main-form fieldset{
+    margin: 20px 0 ;
+}
+
+.main-form label, .main-form div{
+    margin-top: 20px;
+}
+
+.main-form input[type="text"],
+.main-form input[type="email"],
+.main-form input[type="date"],
+.main-form select,
+.main-form input[type="number"]{
+    background-color:#eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    height: 45px;
+    appearance: none;
+    
+}
+
+.main-form select[type="text"]{
+    padding-left: 10px;
+}
+
+.main-form input[type="textarea"]{
+    max-width: 400px;
+    height: 60px;
+}
+
+table tr {
+    text-align: center;
+}
+
+.main-form input[type="submit"]{
+    border: none;
+    color: #000;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem 1px ; 
+    box-shadow: 1px 1px 4px #999;
+}
+
+.main-form section:required{
+    border-bottom: solid 5px red ;
+}
+
+.main-form section:required:valid{
+    border-bottom: solid 5px green;
+}
+
+.main-form input[type="submit"]{
+    color: white;
+    background-color: green;
+}
+
+@media only screen and (max-width: 431px) {
+    header, footer{
+        max-width: 431px;
+        width: 100%;
+    }
+    .main-form form{
+        width: 400px;
+    }
+
+    fieldset.main-form {
+        width: 100%;
+    }
+
+    table{
+        margin-top: 10px;
+    }
+
+    table tr th{
+        font-size: 8px;
+    }
+
+    /* .main-form input[type="text"],
+    .main-form input[type="email"],
+    .main-form input[type="date"],
+    .main-form select,
+    .main-form input[type="number"]{
+        width: 100%;
+        max-width: 350px;
+        height: 45px;    
+} */
+
+
+}
